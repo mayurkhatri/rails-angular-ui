@@ -1,7 +1,11 @@
-var application = angular.module('AngularUiDemo', ['ui.calendar', 'ui.bootstrap', 'ui.date', 'ui.event']);
+var application = angular.module('AngularUiDemo', ['ui.bootstrap', 'ui.date', 'ui.event','ui.slider', 'ui.validate']);
   application.controller('welcomeCtrl', function($scope){
-  	$scope.name = "Rajni";
+  	$scope.name = "Mayur";
     $scope.myFavDate = "Thursday, 11 October, 2015";
+    $scope.testVal = 15;
+    // For Slider
+    $scope.items = [{name: 'chopper', cost: '100'}, {name: 'fighter-jet', cost: '50'}, {name: 'tank', cost: '150'}]
+
     // for calendar
   	$scope.uiConfig = {
         calendar:{
@@ -54,5 +58,6 @@ var application = angular.module('AngularUiDemo', ['ui.calendar', 'ui.bootstrap'
     $scope.alertOnResize = function(){
     	console.log("in alertOnResize");
     }
+
   	$scope.eventSources = [];
   });
