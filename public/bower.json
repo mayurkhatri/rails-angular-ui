@@ -1,0 +1,23 @@
+{
+  "name": "public",
+  "version": "0.0.0",
+  "homepage": "https://github.com/mayurkhatri/rails-angular-ui",
+  "authors": [
+    "Mayur Khatri <mayur.khatri@vertisinfotech.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-bootstrap": "~0.13.3",
+    "angular-ui-date": "~0.0.8",
+    "angular-ui-event": "~1.0.0",
+    "angular-ui-select": "~0.12.1",
+    "angularjs": "1.4.4"
+  }
+}
